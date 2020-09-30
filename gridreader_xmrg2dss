@@ -1,0 +1,23 @@
+#!/bin/bash
+# call metvue GridReader  , convert grib file to dss
+#
+# GridReader ((-inFile fileSpec) (-dir outputDirectory | -outFile outputFile)
+#     &| -controlFile file) [-inUnits units] [-tinInputInterval timeInterval]
+#     [-sTime time1] [-eTime time2] [-dTime timespan]  [-extentsShapefile shapefile]
+#     [-maxTins numTins] (-prjFile file [-gridSpacing number])
+#     [-samplingMethod (inverseDistSq | surfaceInterp)] [-nearestNeighbor [dist]]
+#     [-shift timespan]  [-outUnits units] [-title title] [-type type]
+#     [-?writeProvider] [-writeProvider provider] [-writeType writeType]
+#     [-dssA dssApart] [-dssB dssBpart] [-dssC dssCpart] [-dssF dssFpart]
+
+# INFO: Write provider DSS supports these write types: WKT, HRAP, SHG
+# INFO: Write provider NativeFile supports this write type: LEGACY_GRID_HRAP
+# INFO: Write provider ASCII_Grid supports these write types: ASC_GRID, FLT_GRID
+# INFO: Write provider PRISM supports this write type: BIL
+
+$METVUE_EXE/utilities/unix/GridReader \
+ -inFile  ./InputData/xmrg0613201015z \
+ -outFile ./OutputData/precip.%yyyy%.%MM%.dss \
+ -writeProvider DSS -writeType SHG -dssA SHG -dssB Carlsbad -dssC precip -dssF XMRG
+
+ 

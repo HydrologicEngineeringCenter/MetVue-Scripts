@@ -1,0 +1,156 @@
+OutFile: 86out.dss
+OutPath: /SHG/SWT/PRECIP///INTERPPOLATED/
+
+* Use inverse-distance-square weighted average for interpolation
+Weight: idw
+
+GridType: HRAP
+CellSize: 2000
+GridBounds: -102.1342 33.5622 -93.0458 38.4594
+
+
+TimeStart: 02OCT86, 0000
+TimeEnd: 11OCT86, 0000
+
+DSSFile: 86in.dss
+
+Gage: AARK, -970331, 370323
+timezone: CST, Y
+path://AARK/PRECIP-CUM//1HOUR/OBS/
+
+Gage: AUGU, -965848, 374013
+timezone: CST, Y
+path://AUGU/PRECIP-CUM//1HOUR/OBS/
+
+Gage: BLAC, -971639, 364831
+timezone: CST, Y
+path://BLAC/PRECIP-CUM//1HOUR/OBS/
+
+Gage: CANT, -983605, 360503
+timezone: CST, Y
+path://CANT/PRECIP-CUM//1HOUR/OBS/
+
+Gage: CHEN, -974736, 374335
+timezone: CST, Y
+path://CHEN/PRECIP-CUM//1HOUR/OBS/
+
+Gage: DERB, -971630, 373234
+timezone: CST, Y
+path://DERB/PRECIP-CUM//1HOUR/OBS/
+
+Gage: DOVE, -975451, 355706
+timezone: CST, Y
+path://DOVE/PRECIP-CUM//1HOUR/OBS/
+
+Gage: ELDR, -964920, 375046
+timezone: CST, Y
+path://ELDR/PRECIP-CUM//1HOUR/OBS/
+
+Gage: ELDW, -965021, 374901
+timezone: CST, Y
+path://ELDW/PRECIP-CUM//1HOUR/OBS/
+
+Gage: ELRE, -975726, 353347
+timezone: CST, Y
+path://ELRE/PRECIP-CUM//1HOUR/OBS/
+
+Gage: FALL, -960439, 373848
+timezone: CST, Y
+path://FALL/PRECIP-CUM//1HOUR/OBS/
+
+Gage: FLOR, -965237, 381410
+timezone: CST, Y
+path://FLOR/PRECIP-CUM//1HOUR/OBS/
+
+Gage: FSUP, -993415, 363314
+timezone: CST, Y
+path://FSUP/PRECIP-CUM//1HOUR/OBS/
+
+Gage: GBEN, -984549, 382111
+timezone: CST, Y
+path://GBEN/PRECIP-CUM//1HOUR/OBS/
+
+Gage: GSAL, -980807, 364440
+timezone: CST, Y
+path://GSAL/PRECIP-CUM//1HOUR/OBS/
+
+Gage: HEYB, -961755, 355652
+timezone: CST, Y
+path://HEYB/PRECIP-CUM//1HOUR/OBS/
+
+Gage: HULA, -960518, 365544
+timezone: CST, Y
+path://HULA/PRECIP-CUM//1HOUR/OBS/
+
+Gage: HUTC, -974629, 375647
+timezone: CST, Y
+path://HUTC/PRECIP-CUM//1HOUR/OBS/
+
+Gage: KAWL, -965518, 364158
+timezone: CST, Y
+path://KAWL/PRECIP-CUM//1HOUR/OBS/
+
+Gage: KEYS, -961505, 360905
+timezone: CST, Y
+path://KEYS/PRECIP-CUM//1HOUR/OBS/
+
+* Gage: LYON, -981129, 381829
+Gage: LYON, -981129, 381829
+timezone: CST, Y
+path://LYON/PRECIP-CUM//1HOUR/OBS/
+
+Gage: MARC, -970459, 382200
+timezone: CST, Y
+path://MARC/PRECIP-CUM//1HOUR/OBS/
+
+Gage: MARI, -970455, 382219
+timezone: CST, Y
+path://MARI/PRECIP-CUM//1HOUR/OBS/
+
+Gage: MURD, -975059, 373400
+timezone: CST, Y
+path://MURD/PRECIP-CUM//1HOUR/OBS/
+
+Gage: PAWN, -964756, 362036
+timezone: CST, Y
+path://PAWN/PRECIP-CUM//1HOUR/OBS/
+
+Gage: PECK, -972519, 372733
+timezone: CST, Y
+path://PECK/PRECIP-CUM//1HOUR/OBS/
+
+Gage: PERK, -965442, 355908
+timezone: CST, Y
+path://PERK/PRECIP-CUM//1HOUR/OBS/
+
+Gage: RALS, -964322, 363008
+timezone: CST, Y
+path://RALS/PRECIP-CUM//1HOUR/OBS/
+
+Gage: SEIL, -985515, 361106
+timezone: CST, Y
+path://SEIL/PRECIP-CUM//1HOUR/OBS/
+
+Gage: TONK, -971842, 364029
+timezone: CST, Y
+path://TONK/PRECIP-CUM//1HOUR/OBS/
+
+Gage: TOWA, -970045, 374745
+timezone: CST, Y
+path://TOWA/PRECIP-CUM//1HOUR/OBS/
+
+Gage: TULA, -960013, 360837
+timezone: CST, Y
+path://TULA/PRECIP-CUM//1HOUR/OBS/
+
+Gage: WARW, -970033, 354031
+timezone: CST, Y
+path://WARW/PRECIP-CUM//1HOUR/OBS/
+
+Gage: WINF, -965939, 371327
+timezone: CST, Y
+path://WINF/PRECIP-CUM//1HOUR/OBS/
+
+Gage: WOO2, -991639, 362617
+timezone: CST, Y
+path://WOO2/PRECIP-CUM//1HOUR/OBS/

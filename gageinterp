@@ -1,0 +1,5 @@
+
+cp ./InputData/86in.dss .
+
+GageToTin -control ./InputData/lrp.precip3.ginterp 
+#-dssIn ./InputData/86in.dss -dssOut ./OutputData/Gage2Tin_Results.dss -bTime 19sep1986,120000 -eTime 30Oct1986,180000

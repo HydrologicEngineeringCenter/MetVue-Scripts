@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+
+TriangulateTin -i ./InputData/09may08.txt -o ./OutputData/TriangulateResults9 -b 01may2008,000000 -d 01days
