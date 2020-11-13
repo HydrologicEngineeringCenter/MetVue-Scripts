@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <node name="metvue">
+    <node name="workstationSettings_v2">
+      <map>
+        <entry key="MetVueVersion" value="3.1.0.1022" />
+        <entry key="active" value="true" />
+        <entry key="allowoptimizeddrawing" value="true" />
+        <entry key="annotationfileslocation" value="C:\project\mv-example" />
+        <entry key="annotationlayer" value="None" />
+        <entry key="autoencompassmapswhenadded" value="false" />
+        <entry key="basinaveragemapfileslocation" value="C:\project\mv-example" />
+        <entry key="dssdefaultfilecreateversion" value="V6" />
+        <entry key="enablemimicmousecursornode" value="false" />
+        <entry key="enablemousetrackingnode" value="false" />
+        <entry key="griddeddatapolygonavgcompmethod" value="true" />
+        <entry key="hidden" value="false" />
+        <entry key="imagerotationcenterpointchoicenode" value="GeometricTinCenter" />
+        <entry key="mapfileslocation" value="C:\project\MetVue-Scripts\InputData\shp" />
+        <entry key="mapprojectioncoordinateconverter" value="Geographic,NAD83" />
+        <entry key="mapwindowbackgroundcolor" value="white" />
+        <entry key="maximumAreaChangePercentThreshold" value="1.0" />
+        <entry key="maximumCentroidChangePercentThreshold" value="1.0" />
+        <entry key="maximumInertialAxisChangePercentThreshold" value="2.0" />
+        <entry key="mousemodenode" value="ZoomIn" />
+        <entry key="mousetrackingchoicenode" value="LatLonCoords,ProjectionCoords,InterpolatedZ,ClosestPointLatLon,ClosestPointLabel,ClosestPointType,ClosestPointZ,PointArrayIndex," />
+        <entry key="name" value="/metvue" />
+        <entry key="optimizeddrawingpixelspercelllimit" value="2" />
+        <entry key="projectioncoordinatesadjustedfordata" value="false" />
+        <entry key="reversemousewheel" value="false" />
+        <entry key="savepathsasrelative" value="false" />
+        <entry key="showdms" value="false" />
+        <entry key="tempfileslocation" value="C:\Users\q0hecklt\AppData\Local\Temp\4" />
+        <entry key="timezonefordisplaynode" value="GMT" />
+        <entry key="unitsystemnode" value="english" />
+        <entry key="zoomoverview" value="EncompassBoth" />
+      </map>
+      <node name="scales">
+        <map>
+          <entry key="preferredscale" value="Auto Scale - Linear" />
+        </map>
+        <node name="scale">
+          <map>
+            <entry key="(English) Precipitation - max 30 in" value="Explicit,UseTopPaletteLevelForExceedance,0.0,0.1,0.25,0.5,1.0,1.5,2.0,3.0,4.0,5.0,6.0,8.0,10.0,15.0,20.0,30.0," />
+            <entry key="(English) Temperature" value="Explicit,UseTopPaletteLevelForExceedance,-40.0,-20.0,-10.0,0.0,10.0,20.0,30.0,40.0,50.0,60.0,70.0,80.0,90.0,100.0,110.0,120.0,140.0," />
+            <entry key="Auto Scale - Linear" value="Linear,UseTopPaletteLevelForExceedance,*,*,*," />
+            <entry key="Auto Scale - Log" value="logarithmic, SmoothInterpolationMode, *, *, 10" />
+          </map>
+        </node>
+      </node>
+      <node name="palettes">
+        <map>
+          <entry key="preferredpalette" value="Default" />
+        </map>
+        <node name="palette">
+          <map>
+            <entry key="Default" value="true, false, true, false,x,x,x,x,x,x,(0x00408000, 0x00ffffff, Solid, 1, solid, false),(0x00666700, 0x00ffffff, Solid, 1, solid, false),(0x008c4d00, 0x00ffffff, Solid, 1, solid, false),(0x00b23400, 0x00ffffff, Solid, 1, solid, false),(0x00db2424, 0x00ffffff, Solid, 1, solid, false),(0x00b74848, 0x00ffffff, Solid, 1, solid, false),(0x00926d6d, 0x00ffffff, Solid, 1, solid, false),(0x006e9191, 0x00ffffff, Solid, 1, solid, false),(0x0049b6b6, 0x00ffffff, Solid, 1, solid, false),(0x0025dada, 0x00ffffff, Solid, 1, solid, false),(0x0000ffff, 0x00ffffff, Solid, 1, solid, false),(0x0000aaff, 0x00ffffff, Solid, 1, solid, false),(0x000055ff, 0x00ffffff, Solid, 1, solid, false),(0x000000ff, 0x00ffffff, Solid, 1, solid, false)" />
+            <entry key="Precipitation - 70% Opacity" value="true,false,true,false,reserved, reserved, reserved, reserved, reserved, reserved,(0xb2cccccc,0xff606060,Solid,1,Solid,false),(white[b2],0xff404040,Solid,1,Solid,false),(0xb20cd8e6,darkgray,Solid,1,Solid,false),(0xb20300f4,black,Solid,1,Solid,false),(0xb202fd02,0xff070707,Solid,1,Solid,false),(0xb201c501,0xff0f0f0f,Solid,1,Solid,false),(0xb2008e00,0xff1f1f1f,Solid,1,Solid,false),(0xb2fdf802,0xff3f3f3f,Solid,1,Solid,false),(0xb2e5bc00,0xff7f7f7f,Solid,1,Solid,false),(0xb2fd9500,white,Solid,1,Solid,false),(0xb2fd0000,0xffefefef,Solid,1,Solid,false),(0xb2d40000,0xffdfdfdf,Solid,1,Solid,false),(0xb2990000,0xffbfbfbf,Solid,1,Solid,false),(black[b2],white,Solid,1,Solid,false),(0xb2f800fd,0xff7f7f7f,Solid,1,Solid,false),(0xb29854c6,black,Solid,1,Solid,false),(0xb2999999,black,Solid,1,Solid,false)," />
+            <entry key="Temperature" value="true,true,true,false,reserved, reserved, reserved, reserved, reserved, reserved,(white,black,Solid,1,Solid,false),(0xffff00f8,black,Solid,1,Solid,false),(0xffd900ff,black,Solid,1,Solid,false),(0xff7e00ff,black,Solid,1,Solid,false),(0xff0036ff,black,Solid,1,Solid,false),(0xff0092ff,black,Solid,1,Solid,false),(0xff00ecff,black,Solid,1,Solid,false),(0xff00ffe0,black,Solid,1,Solid,false),(0xff05ff00,black,Solid,1,Solid,false),(0xffbbff00,black,Solid,1,Solid,false),(0xffe6ff00,black,Solid,1,Solid,false),(0xffffe600,black,Solid,1,Solid,false),(0xffffbb00,black,Solid,1,Solid,false),(0xffff8b00,black,Solid,1,Solid,false),(0xffff6000,black,Solid,1,Solid,false),(0xffff0400,black,Solid,1,Solid,false),(black,black,Solid,1,Solid,false)," />
+          </map>
+        </node>
+      </node>
+      <node name="attributeSchemas">
+        <map>
+          <entry key="preferredschema" value="default" />
+        </map>
+        <node name="schemas">
+          <node name="default">
+            <node name="points">
+              <map>
+                <entry key="City_and_Town_Locales" value="true,Arial,8,0xff112233,black,square,white,red,12,false,true,true,true,false,0.0,3.4028234663852886E38," />
+                <entry key="DCP_Locations" value="true,Arial,12,darkgreen,black,triangle,darkgreen,white,12,false,true,true,true,false,0.0,3.4028234663852886E38," />
+                <entry key="Mesonet_Stations" value="true,Arial,8,blue,black,circle,yellow,white,12,false,true,true,true,false,0.0,3.4028234663852886E38," />
+                <entry key="Rainfall_Observers" value="true,Arial,8,yellow,red,diamond,green,darkred,12,false,true,true,true,false,0.0,3.4028234663852886E38," />
+              </map>
+            </node>
+            <node name="lines">
+              <map>
+                <entry key="Basin_Outlines" value="true,Solid,2,darkgreen,black,black,square,brown,green,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="County_Outlines" value="true,Dot,1,darkgray,red,black,square,yellow,red,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Highways" value="true,Solid,1,brown,darkblue,black,x,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Incorporated_Limits" value="true,Solid,1,darkgreen,black,darkgreen,triangle2,black,black,12,false,false,true,true,false,false,-1.0,-1.0," />
+                <entry key="Interstates" value="true,Solid,3,green,darkgreen,black,plus,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Reservoirs" value="true,Solid,1,darkblue,black,darkblue,diamond,green,darkgray,12,true,false,true,true,false,false,-1.0,-1.0," />
+                <entry key="Rivers_and_Streams" value="true,Solid,1,darkblue,black,black,triangle,yellow,red,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Secondary_Roads" value="true,Solid,1,red,black,black,plus,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="State_Outlines" value="true,Solid,2,black,black,black,circle,green,darkgray,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Streets_Major" value="true,Solid,1,white,black,black,square,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Streets_Subdivision" value="true,Solid,1,darkgray,black,black,square,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Subbasin_Outlines" value="true,Solid,1,darkgreen,black,black,triangle,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+              </map>
+            </node>
+            <node name="polygons">
+              <map>
+                <entry key="Basin_Polygons" value="true,Solid,1,darkgreen,black,black,square,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+                <entry key="Subbasin_Polygons" value="true,Solid,1,darkgreen,black,black,square,black,black,12,true,false,true,false,false,false,-1.0,-1.0," />
+              </map>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="patterns">
+        <node name="pattern" />
+      </node>
+      <node name="temporalTransformationManager" />
+      <node name="coordinatesystems" />
+      <node name="depthareaduration">
+        <map>
+          <entry key="adjustdurationscaleunits" value="true" />
+          <entry key="areaoutputorder" value="Duration,Area,Depth" />
+          <entry key="computationmethod" value="PointValue" />
+          <entry key="constraindurations" value="true" />
+          <entry key="curvecreationmethod" value="MaxVolume" />
+          <entry key="depthoutputorder" value="Duration,Depth,Area" />
+          <entry key="durationscaleisauto" value="true" />
+          <entry key="durationscaleunits" value="Hours" />
+          <entry key="logginglevel" value="INFO" />
+          <entry key="logtofile" value="true" />
+          <entry key="logtoscreen" value="true" />
+          <entry key="outputparam" value="Area" />
+          <entry key="savetodss" value="false" />
+        </map>
+      </node>
+      <node name="gage2tin" />
+      <node name="bordersandlayers">
+        <map>
+          <entry key="bordersandlayersinherited" value="false" />
+        </map>
+        <node name="0">
+          <map>
+            <entry key="active" value="true" />
+            <entry key="basinavg" value="true" />
+            <entry key="mapIdentifier" value="C:\project\MetVue-Scripts\InputData\shp\AmericanRiver.shp" />
+            <entry key="mapName" value="AmericanRiver.shp" />
+            <entry key="mediaType" value="shapefile" />
+          </map>
+        </node>
+      </node>
+      <node name="basinaveragebordersandlayers" />
+      <node name="annotation" />
+      <node name="tinproviders">
+        <map>
+          <entry key="applywritetimeshift" value="false" />
+          <entry key="applywritetimeshiftforprojecting" value="false" />
+          <entry key="timeshiftdateisrelative" value="true" />
+          <entry key="timeshiftdateisrelativeforprojecting" value="true" />
+          <entry key="timeshiftdaterelative" value="0" />
+          <entry key="timeshiftdaterelativeforprojecting" value="0" />
+          <entry key="timezoneselectiontypeforprojecting" value="all" />
+          <entry key="timezoneselectiontypeforwrite" value="all" />
+        </map>
+        <node name="readsettings">
+          <node name="file">
+            <map>
+              <entry key="aggregatespatially" value="Temporal" />
+              <entry key="filemask" value="" />
+              <entry key="filesearchlocation" value="C:\project\mv-example" />
+              <entry key="fileselectiontype" value="STATIC" />
+              <entry key="usecachedspatialtins" value="true" />
+            </map>
+            <node name="resultantfiles" />
+            <node name="timeFilterOptions">
+              <map>
+                <entry key="absolutebegdate" value="1605305309974" />
+                <entry key="absoluteenddate" value="1605305309974" />
+                <entry key="durationamount" value="1" />
+                <entry key="durationinterval" value="Hours" />
+                <entry key="enabledurationfiltering" value="false" />
+                <entry key="enabletimefiltering" value="false" />
+                <entry key="isbegdaterelative" value="false" />
+                <entry key="isenddaterelative" value="false" />
+                <entry key="relativebegdate" value="0" />
+                <entry key="relativeenddate" value="0" />
+                <entry key="timespanfilteringtype" value="StartTime" />
+              </map>
+            </node>
+            <node name="readConstraints">
+              <map>
+                <entry key="aggoption" value="Aggregate" />
+                <entry key="overrideaggoption" value="false" />
+                <entry key="overridespatialaggoption" value="false" />
+                <entry key="spatialaggoption" value="Average" />
+                <entry key="timezoneselectiontype" value="all" />
+                <entry key="usealternatetimezone" value="false" />
+              </map>
+              <node name="extentsReadConstraint">
+                <map>
+                  <entry key="isCustomExtents" value="true" />
+                  <entry key="issubimageconstraintactive" value="false" />
+                  <entry key="subimageconstrainttype" value="MaskLLBox" />
+                </map>
+                <node name="shapefileList" />
+              </node>
+            </node>
+          </node>
+          <node name="dss">
+            <map>
+              <entry key="aggregatespatially" value="Temporal" />
+              <entry key="dssdefaultfilecreateversion" value="V6" />
+              <entry key="dssfile" value="C:\project\mv-example\data.dss" />
+              <entry key="dsspathmask" value="/*/*/*/*/*/*/" />
+              <entry key="fileselectiontype" value="STATIC" />
+              <entry key="use_cwms_monthly_file" value="false" />
+              <entry key="usecachedspatialtins" value="true" />
+            </map>
+            <node name="resultantfiles" />
+            <node name="timeFilterOptions">
+              <map>
+                <entry key="absolutebegdate" value="1605305309974" />
+                <entry key="absoluteenddate" value="1605305309974" />
+                <entry key="durationamount" value="1" />
+                <entry key="durationinterval" value="Hours" />
+                <entry key="enabledurationfiltering" value="false" />
+                <entry key="enabletimefiltering" value="false" />
+                <entry key="isbegdaterelative" value="false" />
+                <entry key="isenddaterelative" value="false" />
+                <entry key="relativebegdate" value="0" />
+                <entry key="relativeenddate" value="0" />
+                <entry key="timespanfilteringtype" value="StartTime" />
+              </map>
+            </node>
+            <node name="readConstraints">
+              <map>
+                <entry key="aggoption" value="Aggregate" />
+                <entry key="alternatetimezone" value="GMT|0|0" />
+                <entry key="overrideaggoption" value="false" />
+                <entry key="overridespatialaggoption" value="false" />
+                <entry key="spatialaggoption" value="Average" />
+                <entry key="timezoneselectiontype" value="all" />
+                <entry key="usealternatetimezone" value="false" />
+              </map>
+              <node name="extentsReadConstraint">
+                <map>
+                  <entry key="isCustomExtents" value="true" />
+                  <entry key="issubimageconstraintactive" value="false" />
+                  <entry key="subimageconstrainttype" value="MaskLLBox" />
+                </map>
+                <node name="shapefileList" />
+              </node>
+            </node>
+          </node>
+          <node name="static" />
+        </node>
+        <node name="writesettings">
+          <node name="file">
+            <map>
+              <entry key="aggregatetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+              <entry key="discretetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+              <entry key="saveaggregatetin" value="true" />
+              <entry key="savediscretetins" value="true" />
+            </map>
+          </node>
+          <node name="dss">
+            <map>
+              <entry key="aggregatetinpath" value="///////" />
+              <entry key="discretetinpath" value="///////" />
+              <entry key="saveaggregatetin" value="true" />
+              <entry key="savediscretetins" value="true" />
+            </map>
+          </node>
+        </node>
+        <node name="projectionsettings">
+          <node name="file">
+            <map>
+              <entry key="extentsfrom" value="SourceTin" />
+              <entry key="roundextents" value="true" />
+              <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+              <entry key="usehalfcelloffset" value="false" />
+            </map>
+          </node>
+          <node name="dss">
+            <map>
+              <entry key="extentsfrom" value="SourceTin" />
+              <entry key="lfmcellsize" value="4762.5" />
+              <entry key="roundextents" value="true" />
+              <entry key="shgcellsize" value="2000.0" />
+              <entry key="tinpath" value="///////" />
+              <entry key="usehalfcelloffset" value="false" />
+            </map>
+          </node>
+          <node name="nativefile">
+            <map>
+              <entry key="extentsfrom" value="SourceTin" />
+              <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+            </map>
+          </node>
+          <node name="prism">
+            <map>
+              <entry key="extentsfrom" value="SourceTin" />
+              <entry key="roundextents" value="true" />
+              <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+              <entry key="usehalfcelloffset" value="false" />
+            </map>
+          </node>
+          <node name="ascii_grid">
+            <map>
+              <entry key="extentsfrom" value="SourceTin" />
+              <entry key="roundextents" value="true" />
+              <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+              <entry key="usehalfcelloffset" value="false" />
+            </map>
+          </node>
+        </node>
+        <node name="writesettingsforprojecting">
+          <node name="writeconstraints">
+            <map>
+              <entry key="usealternatetimezoneforwrite" value="false" />
+            </map>
+          </node>
+        </node>
+        <node name="writeconstraints">
+          <map>
+            <entry key="usealternatetimezoneforwrite" value="false" />
+          </map>
+        </node>
+      </node>
+      <node name="printingnode">
+        <map>
+          <entry key="addtitle" value="true" />
+          <entry key="autogenerateimagename" value="true" />
+          <entry key="bordercolor" value="-16777216" />
+          <entry key="borderwidth" value="1" />
+          <entry key="defaultimagefilename" value="tinImage" />
+          <entry key="fontcolor" value="-16777216" />
+          <entry key="generateuniqueimagefilename" value="false" />
+          <entry key="imagesavedirectory" value="C:\project\mv-example" />
+          <entry key="imagesaveheight" value="100" />
+          <entry key="imagesavetype" value="jpg" />
+          <entry key="imagesavewidth" value="100" />
+          <entry key="includelegend" value="true" />
+          <entry key="optimizeimagesize" value="true" />
+          <entry key="switchbw" value="whenBackgroundIsBlack" />
+        </map>
+      </node>
+      <node name="animationnode">
+        <map>
+          <entry key="animatelayerheight" value="20" />
+          <entry key="animatelayerllx" value="80" />
+          <entry key="animatelayerlly" value="5" />
+          <entry key="animatelayerwidth" value="20" />
+          <entry key="animatelegendlayerbkgtransparent" value="false" />
+          <entry key="animatetilelegend" value="true" />
+          <entry key="animatetilelegendside" value="RIGHT" />
+          <entry key="animatetilexsize" value="20" />
+          <entry key="animatetileysize" value="20" />
+          <entry key="animationfilenametemplateprefix" value="%t%MetVue.%n%." />
+          <entry key="animationimagesavetype" value="jpg" />
+          <entry key="animationkeepimages" value="false" />
+          <entry key="animationmodaccumulate" value="false" />
+          <entry key="animationshowlegend" value="false" />
+        </map>
+      </node>
+      <node name="layercontrol">
+        <map>
+          <entry key="layerorderingandactive" value="internetmap,false,tingrid,false,maps,true,contours,true,influencepolygons,false,annotations,true,polygonavg,true,zvalues,false" />
+        </map>
+        <node name="contourdisplaysettings">
+          <map>
+            <entry key="contourfilletpointcount" value="7" />
+            <entry key="filletfactor" value="100" />
+            <entry key="smoothcontoursnode" value="false" />
+          </map>
+        </node>
+        <node name="annotationdisplaysettings">
+          <map>
+            <entry key="autosaveenabled" value="false" />
+          </map>
+        </node>
+        <node name="polygonavgzvaluesdisplaysettings">
+          <map>
+            <entry key="drawSimplifiedPolygons" value="false" />
+            <entry key="drawpolygonavgzvalueintersectedareanode" value="false" />
+            <entry key="drawpolygonavgzvaluenode" value="true" />
+            <entry key="drawpolygonnamenode" value="true" />
+            <entry key="drawpolygonvolumeequivalentnode" value="true" />
+            <entry key="fontcolor" value="-1" />
+            <entry key="ignorepalettefillpatterns" value="true" />
+            <entry key="ignorepalettetransparency" value="false" />
+            <entry key="primarypolygondraworder" value="ByOrderEncountered" />
+            <entry key="uselinetypesaspolygonsnode" value="false" />
+            <entry key="usesolidbackgroundundertext" value="false" />
+            <entry key="usespecifiedfontcolor" value="false" />
+          </map>
+          <node name="polygontypedrawcontrol">
+            <node name="0">
+              <map>
+                <entry key="drawpolygontype" value="true" />
+                <entry key="polygonattrib" value="Polygons of unknown type" />
+              </map>
+            </node>
+            <node name="1">
+              <map>
+                <entry key="drawpolygontype" value="true" />
+                <entry key="polygonattrib" value="Basin_Polygons" />
+              </map>
+            </node>
+            <node name="2">
+              <map>
+                <entry key="drawpolygontype" value="true" />
+                <entry key="polygonattrib" value="Subbasin_Polygons" />
+              </map>
+            </node>
+          </node>
+        </node>
+        <node name="tinzvaluesdisplaysettings">
+          <map>
+            <entry key="backgroundlabelcolor" value="-1" />
+            <entry key="foregroundlabelcolor" value="-16777216" />
+            <entry key="gagelabelfollowsscalecolor" value="true" />
+            <entry key="ignorepalettetransparency" value="true" />
+            <entry key="showgageamount" value="true" />
+            <entry key="showgagename" value="true" />
+            <entry key="unitfamily" value="english" />
+          </map>
+        </node>
+        <node name="tingriddisplaysettings">
+          <map>
+            <entry key="contigcolor" value="-16711936" />
+            <entry key="linewidth" value="0" />
+            <entry key="missingcolor" value="-16776961" />
+            <entry key="showsparseSearchGrids" value="false" />
+          </map>
+        </node>
+        <node name="maplayersettings">
+          <map>
+            <entry key="ignorevisibilitythreshold" value="false" />
+          </map>
+        </node>
+        <node name="gageinterplayersettings">
+          <map>
+            <entry key="deletedgagecolorbg" value="-20561" />
+            <entry key="deletedgagecolorfg" value="-65536" />
+            <entry key="estimatedgagecolorbg" value="-16711681" />
+            <entry key="estimatedgagecolorfg" value="-16776961" />
+            <entry key="estimatedgagemeshcolor" value="-16711681" />
+            <entry key="estimatedmeshlinewidth" value="1.0" />
+            <entry key="gagecolorbg" value="-4144960" />
+            <entry key="gagecolorfg" value="-16777216" />
+            <entry key="meshcolor" value="-1" />
+            <entry key="meshlinewidth" value="3.0" />
+            <entry key="showdeletedgages" value="true" />
+            <entry key="showestimatedgages" value="true" />
+            <entry key="showgagenames" value="true" />
+            <entry key="shownormalgages" value="true" />
+            <entry key="showtin" value="false" />
+            <entry key="usetextlabelbg" value="false" />
+          </map>
+        </node>
+        <node name="internetmapssettings" />
+      </node>
+      <node name="sessions">
+        <node name="American River">
+          <map>
+            <entry key="active" value="true" />
+            <entry key="attributeschemaname" value="default" />
+            <entry key="hidden" value="false" />
+            <entry key="name" value="American River" />
+            <entry key="palettename" value="Default" />
+          </map>
+          <node name="bordersandlayers" />
+          <node name="basinaveragebordersandlayers" />
+          <node name="annotation" />
+          <node name="tinproviders">
+            <map>
+              <entry key="applywritetimeshift" value="false" />
+              <entry key="applywritetimeshiftforprojecting" value="false" />
+              <entry key="timeshiftdateisrelative" value="true" />
+              <entry key="timeshiftdateisrelativeforprojecting" value="true" />
+              <entry key="timeshiftdaterelative" value="0" />
+              <entry key="timeshiftdaterelativeforprojecting" value="0" />
+              <entry key="timezoneselectiontypeforprojecting" value="all" />
+              <entry key="timezoneselectiontypeforwrite" value="all" />
+            </map>
+            <node name="readsettings">
+              <node name="file">
+                <map>
+                  <entry key="aggregatespatially" value="Temporal" />
+                  <entry key="filemask" value="" />
+                  <entry key="filesearchlocation" value="C:\project\mv-example" />
+                  <entry key="fileselectiontype" value="STATIC" />
+                  <entry key="usecachedspatialtins" value="true" />
+                </map>
+                <node name="timeFilterOptions">
+                  <map>
+                    <entry key="absolutebegdate" value="1605305309974" />
+                    <entry key="absoluteenddate" value="1605305309974" />
+                    <entry key="durationamount" value="1" />
+                    <entry key="durationinterval" value="Hours" />
+                    <entry key="enabledurationfiltering" value="false" />
+                    <entry key="enabletimefiltering" value="false" />
+                    <entry key="isbegdaterelative" value="false" />
+                    <entry key="isenddaterelative" value="false" />
+                    <entry key="relativebegdate" value="0" />
+                    <entry key="relativeenddate" value="0" />
+                    <entry key="timespanfilteringtype" value="StartTime" />
+                  </map>
+                </node>
+                <node name="readConstraints">
+                  <map>
+                    <entry key="aggoption" value="Aggregate" />
+                    <entry key="overrideaggoption" value="false" />
+                    <entry key="overridespatialaggoption" value="false" />
+                    <entry key="spatialaggoption" value="Average" />
+                    <entry key="timezoneselectiontype" value="all" />
+                    <entry key="usealternatetimezone" value="false" />
+                  </map>
+                  <node name="extentsReadConstraint">
+                    <map>
+                      <entry key="isCustomExtents" value="true" />
+                      <entry key="issubimageconstraintactive" value="false" />
+                      <entry key="subimageconstrainttype" value="MaskLLBox" />
+                    </map>
+                    <node name="shapefileList" />
+                  </node>
+                </node>
+                <node name="resultantfiles" />
+              </node>
+              <node name="dss">
+                <map>
+                  <entry key="aggregatespatially" value="Temporal" />
+                  <entry key="dssdefaultfilecreateversion" value="V6" />
+                  <entry key="dssfile" value="C:\project\mv-example\data.dss" />
+                  <entry key="dsspathmask" value="/*/*/*/*/*/*/" />
+                  <entry key="fileselectiontype" value="STATIC" />
+                  <entry key="use_cwms_monthly_file" value="false" />
+                  <entry key="usecachedspatialtins" value="true" />
+                </map>
+                <node name="timeFilterOptions">
+                  <map>
+                    <entry key="absolutebegdate" value="1605305309974" />
+                    <entry key="absoluteenddate" value="1605305309974" />
+                    <entry key="durationamount" value="1" />
+                    <entry key="durationinterval" value="Hours" />
+                    <entry key="enabledurationfiltering" value="false" />
+                    <entry key="enabletimefiltering" value="false" />
+                    <entry key="isbegdaterelative" value="false" />
+                    <entry key="isenddaterelative" value="false" />
+                    <entry key="relativebegdate" value="0" />
+                    <entry key="relativeenddate" value="0" />
+                    <entry key="timespanfilteringtype" value="StartTime" />
+                  </map>
+                </node>
+                <node name="readConstraints">
+                  <map>
+                    <entry key="aggoption" value="Aggregate" />
+                    <entry key="alternatetimezone" value="GMT|0|0" />
+                    <entry key="overrideaggoption" value="false" />
+                    <entry key="overridespatialaggoption" value="false" />
+                    <entry key="spatialaggoption" value="Average" />
+                    <entry key="timezoneselectiontype" value="all" />
+                    <entry key="usealternatetimezone" value="false" />
+                  </map>
+                  <node name="extentsReadConstraint">
+                    <map>
+                      <entry key="isCustomExtents" value="true" />
+                      <entry key="issubimageconstraintactive" value="false" />
+                      <entry key="subimageconstrainttype" value="MaskLLBox" />
+                    </map>
+                    <node name="shapefileList" />
+                  </node>
+                </node>
+                <node name="resultantfiles" />
+              </node>
+              <node name="static" />
+            </node>
+            <node name="writesettings">
+              <node name="file">
+                <map>
+                  <entry key="aggregatetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                  <entry key="discretetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                  <entry key="saveaggregatetin" value="true" />
+                  <entry key="savediscretetins" value="true" />
+                </map>
+              </node>
+              <node name="dss">
+                <map>
+                  <entry key="aggregatetinpath" value="///////" />
+                  <entry key="discretetinpath" value="///////" />
+                  <entry key="saveaggregatetin" value="true" />
+                  <entry key="savediscretetins" value="true" />
+                </map>
+              </node>
+            </node>
+            <node name="projectionsettings">
+              <node name="ascii_grid">
+                <map>
+                  <entry key="extentsfrom" value="SourceTin" />
+                  <entry key="roundextents" value="true" />
+                  <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                  <entry key="usehalfcelloffset" value="false" />
+                </map>
+              </node>
+              <node name="prism">
+                <map>
+                  <entry key="extentsfrom" value="SourceTin" />
+                  <entry key="roundextents" value="true" />
+                  <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                  <entry key="usehalfcelloffset" value="false" />
+                </map>
+              </node>
+              <node name="file">
+                <map>
+                  <entry key="extentsfrom" value="SourceTin" />
+                  <entry key="roundextents" value="true" />
+                  <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                  <entry key="usehalfcelloffset" value="false" />
+                </map>
+              </node>
+              <node name="nativefile">
+                <map>
+                  <entry key="extentsfrom" value="SourceTin" />
+                  <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                </map>
+              </node>
+              <node name="dss">
+                <map>
+                  <entry key="extentsfrom" value="SourceTin" />
+                  <entry key="lfmcellsize" value="4762.5" />
+                  <entry key="roundextents" value="true" />
+                  <entry key="shgcellsize" value="2000.0" />
+                  <entry key="tinpath" value="///////" />
+                  <entry key="usehalfcelloffset" value="false" />
+                </map>
+              </node>
+            </node>
+            <node name="writeconstraints">
+              <map>
+                <entry key="usealternatetimezoneforwrite" value="false" />
+              </map>
+            </node>
+            <node name="writesettingsforprojecting">
+              <node name="writeconstraints">
+                <map>
+                  <entry key="usealternatetimezoneforwrite" value="false" />
+                </map>
+              </node>
+            </node>
+          </node>
+          <node name="layercontrol">
+            <node name="contourdisplaysettings" />
+            <node name="annotationdisplaysettings" />
+            <node name="polygonavgzvaluesdisplaysettings">
+              <map>
+                <entry key="drawSimplifiedPolygons" value="false" />
+                <entry key="drawpolygonavgzvalueintersectedareanode" value="false" />
+                <entry key="drawpolygonavgzvaluenode" value="true" />
+                <entry key="drawpolygonnamenode" value="true" />
+                <entry key="drawpolygonvolumeequivalentnode" value="true" />
+                <entry key="fontcolor" value="-1" />
+                <entry key="ignorepalettefillpatterns" value="true" />
+                <entry key="ignorepalettetransparency" value="false" />
+                <entry key="primarypolygondraworder" value="ByOrderEncountered" />
+                <entry key="uselinetypesaspolygonsnode" value="false" />
+                <entry key="usesolidbackgroundundertext" value="false" />
+                <entry key="usespecifiedfontcolor" value="false" />
+              </map>
+              <node name="polygontypedrawcontrol">
+                <node name="0">
+                  <map>
+                    <entry key="drawpolygontype" value="true" />
+                    <entry key="polygonattrib" value="Polygons of unknown type" />
+                  </map>
+                </node>
+                <node name="1">
+                  <map>
+                    <entry key="drawpolygontype" value="true" />
+                    <entry key="polygonattrib" value="Basin_Polygons" />
+                  </map>
+                </node>
+                <node name="2">
+                  <map>
+                    <entry key="drawpolygontype" value="true" />
+                    <entry key="polygonattrib" value="Subbasin_Polygons" />
+                  </map>
+                </node>
+              </node>
+            </node>
+            <node name="tinzvaluesdisplaysettings" />
+            <node name="tingriddisplaysettings" />
+            <node name="maplayersettings" />
+            <node name="gageinterplayersettings" />
+            <node name="internetmapssettings" />
+          </node>
+          <node name="mappanels">
+            <node name="XMRG">
+              <map>
+                <entry key="active" value="true" />
+                <entry key="attributeschemaname" value="default" />
+                <entry key="heightpct" value="548" />
+                <entry key="hidden" value="false" />
+                <entry key="iconified" value="false" />
+                <entry key="name" value="XMRG" />
+                <entry key="palettename" value="Default" />
+                <entry key="preferredunitsengligh" value="in" />
+                <entry key="quicknavinc" value="86400000" />
+                <entry key="toolbarlocked" value="false" />
+                <entry key="widthpct" value="890" />
+                <entry key="x" value="10" />
+                <entry key="y" value="10" />
+                <entry key="zorder" value="0" />
+              </map>
+              <node name="bordersandlayers" />
+              <node name="basinaveragebordersandlayers" />
+              <node name="annotation" />
+              <node name="tinproviders">
+                <map>
+                  <entry key="activeprovidersettingnames" value="file" />
+                  <entry key="applywritetimeshift" value="false" />
+                  <entry key="applywritetimeshiftforprojecting" value="false" />
+                  <entry key="timeshiftdateisrelative" value="true" />
+                  <entry key="timeshiftdateisrelativeforprojecting" value="true" />
+                  <entry key="timeshiftdaterelative" value="0" />
+                  <entry key="timeshiftdaterelativeforprojecting" value="0" />
+                  <entry key="timezoneselectiontypeforprojecting" value="all" />
+                  <entry key="timezoneselectiontypeforwrite" value="all" />
+                </map>
+                <node name="readsettings">
+                  <node name="file">
+                    <map>
+                      <entry key="aggregatespatially" value="Temporal" />
+                      <entry key="filemask" value="" />
+                      <entry key="filesearchlocation" value="C:\project\MetVue-Scripts\InputData" />
+                      <entry key="fileselectiontype" value="STATIC" />
+                      <entry key="usecachedspatialtins" value="true" />
+                    </map>
+                    <node name="timeFilterOptions">
+                      <map>
+                        <entry key="absolutebegdate" value="1605305309974" />
+                        <entry key="absoluteenddate" value="1605305309974" />
+                        <entry key="durationamount" value="1" />
+                        <entry key="durationinterval" value="Hours" />
+                        <entry key="enabledurationfiltering" value="false" />
+                        <entry key="enabletimefiltering" value="false" />
+                        <entry key="isbegdaterelative" value="false" />
+                        <entry key="isenddaterelative" value="false" />
+                        <entry key="relativebegdate" value="0" />
+                        <entry key="relativeenddate" value="0" />
+                        <entry key="timespanfilteringtype" value="StartTime" />
+                      </map>
+                    </node>
+                    <node name="readConstraints">
+                      <map>
+                        <entry key="aggoption" value="Aggregate" />
+                        <entry key="overrideaggoption" value="false" />
+                        <entry key="overridespatialaggoption" value="false" />
+                        <entry key="spatialaggoption" value="Average" />
+                        <entry key="timezoneselectiontype" value="all" />
+                        <entry key="usealternatetimezone" value="false" />
+                      </map>
+                      <node name="extentsReadConstraint">
+                        <map>
+                          <entry key="isCustomExtents" value="true" />
+                          <entry key="issubimageconstraintactive" value="false" />
+                          <entry key="subimageconstrainttype" value="MaskLLBox" />
+                        </map>
+                        <node name="shapefileList" />
+                      </node>
+                    </node>
+                    <node name="resultantfiles">
+                      <map>
+                        <entry key="0" value="C:\project\MetVue-Scripts\InputData\xmrg0613201015z|1276437600000|1276441200000|1604512176059|hec.metvue.ioprovider.xmrg.a" />
+                      </map>
+                    </node>
+                  </node>
+                  <node name="dss">
+                    <map>
+                      <entry key="aggregatespatially" value="Temporal" />
+                      <entry key="dssdefaultfilecreateversion" value="V6" />
+                      <entry key="dssfile" value="C:\project\mv-example\data.dss" />
+                      <entry key="dsspathmask" value="/*/*/*/*/*/*/" />
+                      <entry key="fileselectiontype" value="STATIC" />
+                      <entry key="use_cwms_monthly_file" value="false" />
+                      <entry key="usecachedspatialtins" value="true" />
+                    </map>
+                    <node name="timeFilterOptions">
+                      <map>
+                        <entry key="absolutebegdate" value="1605305309974" />
+                        <entry key="absoluteenddate" value="1605305309974" />
+                        <entry key="durationamount" value="1" />
+                        <entry key="durationinterval" value="Hours" />
+                        <entry key="enabledurationfiltering" value="false" />
+                        <entry key="enabletimefiltering" value="false" />
+                        <entry key="isbegdaterelative" value="false" />
+                        <entry key="isenddaterelative" value="false" />
+                        <entry key="relativebegdate" value="0" />
+                        <entry key="relativeenddate" value="0" />
+                        <entry key="timespanfilteringtype" value="StartTime" />
+                      </map>
+                    </node>
+                    <node name="readConstraints">
+                      <map>
+                        <entry key="aggoption" value="Aggregate" />
+                        <entry key="alternatetimezone" value="GMT|0|0" />
+                        <entry key="overrideaggoption" value="false" />
+                        <entry key="overridespatialaggoption" value="false" />
+                        <entry key="spatialaggoption" value="Average" />
+                        <entry key="timezoneselectiontype" value="all" />
+                        <entry key="usealternatetimezone" value="false" />
+                      </map>
+                      <node name="extentsReadConstraint">
+                        <map>
+                          <entry key="isCustomExtents" value="true" />
+                          <entry key="issubimageconstraintactive" value="false" />
+                          <entry key="subimageconstrainttype" value="MaskLLBox" />
+                        </map>
+                        <node name="shapefileList" />
+                      </node>
+                    </node>
+                    <node name="resultantfiles" />
+                  </node>
+                  <node name="static" />
+                </node>
+                <node name="writesettings">
+                  <node name="file">
+                    <map>
+                      <entry key="aggregatetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="discretetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="saveaggregatetin" value="true" />
+                      <entry key="savediscretetins" value="true" />
+                    </map>
+                  </node>
+                  <node name="dss">
+                    <map>
+                      <entry key="aggregatetinpath" value="///////" />
+                      <entry key="discretetinpath" value="///////" />
+                      <entry key="saveaggregatetin" value="true" />
+                      <entry key="savediscretetins" value="true" />
+                    </map>
+                  </node>
+                </node>
+                <node name="projectionsettings">
+                  <node name="ascii_grid">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                  <node name="prism">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                  <node name="file">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                  <node name="nativefile">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                    </map>
+                  </node>
+                  <node name="dss">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="lfmcellsize" value="4762.5" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="shgcellsize" value="2000.0" />
+                      <entry key="tinpath" value="///////" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                </node>
+                <node name="writeconstraints">
+                  <map>
+                    <entry key="usealternatetimezoneforwrite" value="false" />
+                  </map>
+                </node>
+                <node name="writesettingsforprojecting">
+                  <node name="writeconstraints">
+                    <map>
+                      <entry key="usealternatetimezoneforwrite" value="false" />
+                    </map>
+                  </node>
+                </node>
+              </node>
+              <node name="layercontrol">
+                <node name="contourdisplaysettings" />
+                <node name="annotationdisplaysettings" />
+                <node name="polygonavgzvaluesdisplaysettings">
+                  <map>
+                    <entry key="drawSimplifiedPolygons" value="false" />
+                    <entry key="drawpolygonavgzvalueintersectedareanode" value="false" />
+                    <entry key="drawpolygonavgzvaluenode" value="true" />
+                    <entry key="drawpolygonnamenode" value="true" />
+                    <entry key="drawpolygonvolumeequivalentnode" value="true" />
+                    <entry key="fontcolor" value="-1" />
+                    <entry key="ignorepalettefillpatterns" value="true" />
+                    <entry key="ignorepalettetransparency" value="false" />
+                    <entry key="primarypolygondraworder" value="ByOrderEncountered" />
+                    <entry key="uselinetypesaspolygonsnode" value="false" />
+                    <entry key="usesolidbackgroundundertext" value="false" />
+                    <entry key="usespecifiedfontcolor" value="false" />
+                  </map>
+                  <node name="polygontypedrawcontrol">
+                    <node name="0">
+                      <map>
+                        <entry key="drawpolygontype" value="true" />
+                        <entry key="polygonattrib" value="Polygons of unknown type" />
+                      </map>
+                    </node>
+                    <node name="1">
+                      <map>
+                        <entry key="drawpolygontype" value="true" />
+                        <entry key="polygonattrib" value="Basin_Polygons" />
+                      </map>
+                    </node>
+                    <node name="2">
+                      <map>
+                        <entry key="drawpolygontype" value="true" />
+                        <entry key="polygonattrib" value="Subbasin_Polygons" />
+                      </map>
+                    </node>
+                  </node>
+                </node>
+                <node name="tinzvaluesdisplaysettings" />
+                <node name="tingriddisplaysettings" />
+                <node name="maplayersettings" />
+                <node name="gageinterplayersettings" />
+                <node name="internetmapssettings" />
+              </node>
+              <node name="llcoords">
+                <map>
+                  <entry key="latmax" value="90.0" />
+                  <entry key="latmin" value="0.0" />
+                  <entry key="lonmax" value="0.0" />
+                  <entry key="lonmin" value="-180.0" />
+                </map>
+              </node>
+              <node name="xycoords">
+                <map>
+                  <entry key="xmax" value="-Infinity" />
+                  <entry key="xmin" value="Infinity" />
+                  <entry key="ymax" value="-Infinity" />
+                  <entry key="ymin" value="Infinity" />
+                </map>
+              </node>
+              <node name="hyetographsurfacetool">
+                <node name="userselecteddssdataobjects" />
+              </node>
+            </node>
+            <node name="DSS">
+              <map>
+                <entry key="active" value="true" />
+                <entry key="heightpct" value="548" />
+                <entry key="hidden" value="false" />
+                <entry key="iconified" value="false" />
+                <entry key="name" value="DSS" />
+                <entry key="quicknavinc" value="86400000" />
+                <entry key="toolbarlocked" value="false" />
+                <entry key="widthpct" value="890" />
+                <entry key="x" value="26" />
+                <entry key="y" value="26" />
+                <entry key="zorder" value="0" />
+              </map>
+              <node name="bordersandlayers" />
+              <node name="basinaveragebordersandlayers" />
+              <node name="annotation" />
+              <node name="tinproviders">
+                <map>
+                  <entry key="applywritetimeshift" value="false" />
+                  <entry key="applywritetimeshiftforprojecting" value="false" />
+                  <entry key="timeshiftdateisrelative" value="true" />
+                  <entry key="timeshiftdateisrelativeforprojecting" value="true" />
+                  <entry key="timeshiftdaterelative" value="0" />
+                  <entry key="timeshiftdaterelativeforprojecting" value="0" />
+                  <entry key="timezoneselectiontypeforprojecting" value="all" />
+                  <entry key="timezoneselectiontypeforwrite" value="all" />
+                </map>
+                <node name="readsettings">
+                  <node name="file">
+                    <map>
+                      <entry key="aggregatespatially" value="Temporal" />
+                      <entry key="filemask" value="" />
+                      <entry key="filesearchlocation" value="C:\project\mv-example" />
+                      <entry key="fileselectiontype" value="STATIC" />
+                      <entry key="usecachedspatialtins" value="true" />
+                    </map>
+                    <node name="timeFilterOptions">
+                      <map>
+                        <entry key="absolutebegdate" value="1605305309974" />
+                        <entry key="absoluteenddate" value="1605305309974" />
+                        <entry key="durationamount" value="1" />
+                        <entry key="durationinterval" value="Hours" />
+                        <entry key="enabledurationfiltering" value="false" />
+                        <entry key="enabletimefiltering" value="false" />
+                        <entry key="isbegdaterelative" value="false" />
+                        <entry key="isenddaterelative" value="false" />
+                        <entry key="relativebegdate" value="0" />
+                        <entry key="relativeenddate" value="0" />
+                        <entry key="timespanfilteringtype" value="StartTime" />
+                      </map>
+                    </node>
+                    <node name="readConstraints">
+                      <map>
+                        <entry key="aggoption" value="Aggregate" />
+                        <entry key="overrideaggoption" value="false" />
+                        <entry key="overridespatialaggoption" value="false" />
+                        <entry key="spatialaggoption" value="Average" />
+                        <entry key="timezoneselectiontype" value="all" />
+                        <entry key="usealternatetimezone" value="false" />
+                      </map>
+                      <node name="extentsReadConstraint">
+                        <map>
+                          <entry key="isCustomExtents" value="true" />
+                          <entry key="issubimageconstraintactive" value="false" />
+                          <entry key="subimageconstrainttype" value="MaskLLBox" />
+                        </map>
+                        <node name="shapefileList" />
+                      </node>
+                    </node>
+                    <node name="resultantfiles" />
+                  </node>
+                  <node name="dss">
+                    <map>
+                      <entry key="aggregatespatially" value="Temporal" />
+                      <entry key="dssdefaultfilecreateversion" value="V6" />
+                      <entry key="dssfile" value="C:\project\mv-example\data.dss" />
+                      <entry key="dsspathmask" value="/*/*/*/*/*/*/" />
+                      <entry key="fileselectiontype" value="STATIC" />
+                      <entry key="use_cwms_monthly_file" value="false" />
+                      <entry key="usecachedspatialtins" value="true" />
+                    </map>
+                    <node name="timeFilterOptions">
+                      <map>
+                        <entry key="absolutebegdate" value="1605305309974" />
+                        <entry key="absoluteenddate" value="1605305309974" />
+                        <entry key="durationamount" value="1" />
+                        <entry key="durationinterval" value="Hours" />
+                        <entry key="enabledurationfiltering" value="false" />
+                        <entry key="enabletimefiltering" value="false" />
+                        <entry key="isbegdaterelative" value="false" />
+                        <entry key="isenddaterelative" value="false" />
+                        <entry key="relativebegdate" value="0" />
+                        <entry key="relativeenddate" value="0" />
+                        <entry key="timespanfilteringtype" value="StartTime" />
+                      </map>
+                    </node>
+                    <node name="readConstraints">
+                      <map>
+                        <entry key="aggoption" value="Aggregate" />
+                        <entry key="alternatetimezone" value="GMT|0|0" />
+                        <entry key="overrideaggoption" value="false" />
+                        <entry key="overridespatialaggoption" value="false" />
+                        <entry key="spatialaggoption" value="Average" />
+                        <entry key="timezoneselectiontype" value="all" />
+                        <entry key="usealternatetimezone" value="false" />
+                      </map>
+                      <node name="extentsReadConstraint">
+                        <map>
+                          <entry key="isCustomExtents" value="true" />
+                          <entry key="issubimageconstraintactive" value="false" />
+                          <entry key="subimageconstrainttype" value="MaskLLBox" />
+                        </map>
+                        <node name="shapefileList" />
+                      </node>
+                    </node>
+                    <node name="resultantfiles" />
+                  </node>
+                  <node name="static" />
+                </node>
+                <node name="writesettings">
+                  <node name="file">
+                    <map>
+                      <entry key="aggregatetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="discretetinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="saveaggregatetin" value="true" />
+                      <entry key="savediscretetins" value="true" />
+                    </map>
+                  </node>
+                  <node name="dss">
+                    <map>
+                      <entry key="aggregatetinpath" value="///////" />
+                      <entry key="discretetinpath" value="///////" />
+                      <entry key="saveaggregatetin" value="true" />
+                      <entry key="savediscretetins" value="true" />
+                    </map>
+                  </node>
+                </node>
+                <node name="projectionsettings">
+                  <node name="ascii_grid">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                  <node name="prism">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                  <node name="file">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                  <node name="nativefile">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="tinfilepattern" value="%t%%durfmt1%_%e:yyyyMMMdd_HHmm%.tin" />
+                    </map>
+                  </node>
+                  <node name="dss">
+                    <map>
+                      <entry key="extentsfrom" value="SourceTin" />
+                      <entry key="lfmcellsize" value="4762.5" />
+                      <entry key="roundextents" value="true" />
+                      <entry key="shgcellsize" value="2000.0" />
+                      <entry key="tinpath" value="///////" />
+                      <entry key="usehalfcelloffset" value="false" />
+                    </map>
+                  </node>
+                </node>
+                <node name="writeconstraints">
+                  <map>
+                    <entry key="usealternatetimezoneforwrite" value="false" />
+                  </map>
+                </node>
+                <node name="writesettingsforprojecting">
+                  <node name="writeconstraints">
+                    <map>
+                      <entry key="usealternatetimezoneforwrite" value="false" />
+                    </map>
+                  </node>
+                </node>
+              </node>
+              <node name="layercontrol">
+                <node name="contourdisplaysettings" />
+                <node name="annotationdisplaysettings" />
+                <node name="polygonavgzvaluesdisplaysettings">
+                  <node name="polygontypedrawcontrol" />
+                </node>
+                <node name="tinzvaluesdisplaysettings" />
+                <node name="tingriddisplaysettings" />
+                <node name="maplayersettings" />
+                <node name="gageinterplayersettings" />
+                <node name="internetmapssettings" />
+              </node>
+              <node name="llcoords">
+                <map>
+                  <entry key="latmax" value="90.0" />
+                  <entry key="latmin" value="0.0" />
+                  <entry key="lonmax" value="0.0" />
+                  <entry key="lonmin" value="-180.0" />
+                </map>
+              </node>
+              <node name="xycoords">
+                <map>
+                  <entry key="xmax" value="-Infinity" />
+                  <entry key="xmin" value="Infinity" />
+                  <entry key="ymax" value="-Infinity" />
+                  <entry key="ymin" value="Infinity" />
+                </map>
+              </node>
+            </node>
+          </node>
+          <node name="calibrationinfo" />
+        </node>
+      </node>
+      <node name="preferredtaliasnode">
+        <node name="English">
+          <map>
+            <entry key="%" value="%" />
+            <entry key="F" value="F" />
+            <entry key="GWh" value="GWh" />
+            <entry key="MWh" value="MWh" />
+            <entry key="TWh" value="TWh" />
+            <entry key="Wh" value="Wh" />
+            <entry key="ac-ft" value="ac-ft" />
+            <entry key="acre" value="acre" />
+            <entry key="bar" value="bar" />
+            <entry key="cfs" value="cfs" />
+            <entry key="degF-day" value="degF-day" />
+            <entry key="dsf" value="dsf" />
+            <entry key="ft" value="ft" />
+            <entry key="ft/s" value="ft/s" />
+            <entry key="ft2" value="ft2" />
+            <entry key="ft3" value="ft3" />
+            <entry key="ftUS" value="ftUS" />
+            <entry key="g/l" value="g/l" />
+            <entry key="gal" value="gal" />
+            <entry key="gpm" value="gpm" />
+            <entry key="in" value="in" />
+            <entry key="in/deg-day" value="in/deg-day" />
+            <entry key="kWh" value="kWh" />
+            <entry key="kaf" value="kaf" />
+            <entry key="kcfs" value="kcfs" />
+            <entry key="kgal" value="kgal" />
+            <entry key="knot" value="knot" />
+            <entry key="lb/ft3" value="lb/ft3" />
+            <entry key="mgal" value="mgal" />
+            <entry key="mgd" value="mgd" />
+            <entry key="mi" value="mi" />
+            <entry key="mile2" value="mile2" />
+            <entry key="mile3" value="mile3" />
+            <entry key="psi" value="psi" />
+          </map>
+        </node>
+        <node name="SI">
+          <map>
+            <entry key="%" value="%" />
+            <entry key="1000 m2" value="1000 m2" />
+            <entry key="1000 m3" value="1000 m3" />
+            <entry key="C" value="C" />
+            <entry key="GWh" value="GWh" />
+            <entry key="J" value="J" />
+            <entry key="K" value="K" />
+            <entry key="MJ" value="MJ" />
+            <entry key="MWh" value="MWh" />
+            <entry key="TWh" value="TWh" />
+            <entry key="Wh" value="Wh" />
+            <entry key="bar" value="bar" />
+            <entry key="cal" value="cal" />
+            <entry key="cm" value="cm" />
+            <entry key="cms" value="cms" />
+            <entry key="degC-day" value="degC-day" />
+            <entry key="g/cm3" value="g/cm3" />
+            <entry key="g/l" value="g/l" />
+            <entry key="g/m3" value="g/m3" />
+            <entry key="ha" value="ha" />
+            <entry key="kPa" value="kPa" />
+            <entry key="kWh" value="kWh" />
+            <entry key="kcms" value="kcms" />
+            <entry key="km" value="km" />
+            <entry key="km2" value="km2" />
+            <entry key="km3" value="km3" />
+            <entry key="m" value="m" />
+            <entry key="m2" value="m2" />
+            <entry key="m3" value="m3" />
+            <entry key="mb" value="mb" />
+            <entry key="mg/l" value="mg/l" />
+            <entry key="mm" value="mm" />
+            <entry key="mm/deg-day" value="mm/deg-day" />
+          </map>
+        </node>
+      </node>
+      <node name="imagesaveoptions" />
+    </node>
+  </node>
+  <node name="org">
+    <node name="geotools">
+      <node name="referencing">
+        <node name="wkt" />
+      </node>
+    </node>
+  </node>
+</root>

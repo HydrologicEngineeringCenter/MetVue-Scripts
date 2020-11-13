@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# ImageSnapshot -projectFile projectfile -session session -mapPanel mappanel
+#     [-tinFile tinfile] [-shapeFile shapefile] [-prjFile file]
+#     [-zoomExtents "minlat,maxlat,minlon,maxlon"] [-resolution "width,height"]
+#     [-format outputformat] -outputFile outputfile
+#     
+$METVUE_EXE/utilities/unix/ImageSnapshot \
+ -projectFile  ./InputData/KF01_ \
+ -basinFile ./InputData/shp/AmericanRiver.shp \
+ -cPart precip \
+ -dssOutFile ./OutputData/BasinComps.dss \
+ -textOutFile ./OutputData/BasinComps.txt
+ 
+ 
