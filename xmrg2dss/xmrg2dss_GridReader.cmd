@@ -19,8 +19,11 @@ SETLOCAL EnableDelayedExpansion
 ::: Specifically, use the fully qualified file pathname of this batch file's location.
 PUSHD %~dp0
 
+::: Set MetVue HOME
+set mvHOME=C:/ProgramFiles/HEC/HEC-MetVue/zBuilds/v3.1/HEC-MetVue_31_Portable/HEC-MetVue_3.1
+
 ::: Setting the location of the java executable.
-set java="C:/bin/HEC-MetVue_31_Portable/HEC-MetVue_3.1/utilities/windows/../../jre/bin/java.exe"
+set java="%mvHOME%/utilities/windows/../../jre/bin/java.exe"
 
 ::: Setting the allowable maximum heap memory for use by the jvm.
 set memory_setting=-Xmx4096m
@@ -29,7 +32,7 @@ set memory_setting=-Xmx4096m
 set gmtTz=-Duser.timezone=GMT
 
 ::: Setting the classpath for running the MetVue program.
-set class_path=-cp "C:/bin/HEC-MetVue_31_Portable/HEC-MetVue_3.1/utilities/windows/../../metvue/modules/*;C:/bin/HEC-MetVue_31_Portable/HEC-MetVue_3.1/utilities/windows/../../metvue/modules/ext/*;C:/bin/HEC-MetVue_31_Portable/HEC-MetVue_3.1/utilities/windows/../../platform/modules/*;C:/bin/HEC-MetVue_31_Portable/HEC-MetVue_3.1/utilities/windows/../../platform/lib/*;%APPDATA%/HEC/HEC-MetVue/3.1.0.1221/user/modules/*"
+set class_path=-cp "%mvHOME%/utilities/windows/../../metvue/modules/*;%mvHOME%/utilities/windows/../../metvue/modules/ext/*;%mvHOME%/utilities/windows/../../platform/modules/*;%mvHOME%/utilities/windows/../../platform/lib/*;%APPDATA%/HEC/HEC-MetVue/3.1.0.1221/user/modules/*"
 
 ::: Setting for calling the class to perform the operation of this utility.
 set main_method=hec/metvue/base/tin/spatialUtil/GridReader
@@ -52,7 +55,7 @@ set dssB=-dssB "B"
 set dssC=-dssC "PRECIPITATION"
 set dssF=-dssF "Auld"
 ::: Command-line execution.
-%java% %memory_setting% %gmtTz% %class_path% %main_method%  !controlFile!
+%java% %memory_setting% %gmtTz% %class_path% %main_method% !controlFile!
 ::: change back to original directory
 POPD
 
