@@ -2,7 +2,7 @@ inFile: "xmrg/MSR_mpe_xmrg%%s:MMddyyyyHH%%z"
 outFile: xmrg.dss
 tinInputInterval: "1H"
 sTime:"15JUL2017,000000"
-eTime: "16JUL2017,000000"
+eTime: "18JUL2017,000000"
 prjFile: "USA Contiguous Albers Equal Area Conic USGS_FT.prj"
 samplingMethod: inverseDistSq
 writeProvider: DSS 
